@@ -4,7 +4,8 @@ import 'package:flutter/services.dart';
 
 void main()
 {
-  runApp(MaterialApp(debugShowCheckedModeBanner:false ,
+  runApp(new MaterialApp(
+    debugShowCheckedModeBanner:false ,
   home: MainPage()));
 }
   
@@ -16,7 +17,7 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage> {
   
-  String FinalResult  = "QRCode Result";
+  String FinalResult  = "Let's Hunt";
   
   Future _scanQR() async {
     
